@@ -4,8 +4,9 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Deven | Portfolio</title>
-  
+  <link rel="stylesheet" href="css/style.css">
 </head>
+
 
 <body>
   <div class="container">
@@ -16,23 +17,24 @@
     <div class="header-container">
 
       <div class="logo">
-        <img src="image/deven_logo.png" alt="logo" width="170" height="110">
+        <img src="images/lopo.png" alt="logo" width="170" height="110">
       </div>
 
       <div class="navigation">
-        <nav>
-          <br><br><br>
-          <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About Me</a></li>
-            <li><a href="skills.html">My Skills</a></li>
-            <li><a href="projects.html">My Projects</a></li>
-            <li><a href="education.html">Education</a></li>
-            <li><a href="contact.html">Contact Me</a></li>
-            <li><a href="socialmedia.html">Social Media</a></li>
-          </ul>
-        </nav>
-      </div>
+       <nav>
+  <ul>
+    <li><a href="#about">About Me</a></li>
+    <li><a href="#skills">My Skills</a></li>
+    <li><a href="#projects">My Projects</a></li>
+    <li><a href="#education">Education</a></li>
+    <li><a href="#contact">Contact Me</a></li>
+    <li><a href="#socialmedia">Social Media</a></li>
+  </ul>
+</nav>
+
+
+
+
 
       <br>
 
@@ -40,7 +42,7 @@
         <form class="search-bar">
           <input type="text" placeholder="Search..." aria-label="Search">
           <button type="submit" aria-label="Search button">
-            <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="#666" stroke-width="2">
+            <svg viewBox="0 0 24 24" width="50" height="20" fill="none" stroke="#666" stroke-width="2">
               <circle cx="11" cy="11" r="7"></circle>
               <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
             </svg>
@@ -53,79 +55,122 @@
   </header>
   <br>
 
+
   <main>
-
-    <section id="about">
-      <h1>ABOUT ME</h1>
-      <p>I am a cybersecurity and networking student passionate about understanding how technology works and how digital systems can be protected. I am currently developing my skills in networking, Linux, cybersecurity, and web technologies. I enjoy learning through hands-on projects and continuously improving my technical knowledge.</p>
-    </section>
-
-    <section id="skills">
-      <h1>My Skills</h1>
-      <ul>
-        <li>Networking</li>
-        <li>Linux</li>
-        <li>Cybersecurity</li>
-        <li>Web Development</li>
-        <li>Programming (Python, C++)</li>
-      </ul>
-    </section>
-
     
+    <section id="about">
+      
+       
+     
+      <div class="about-container">
+        <div class="about-text">  
+      <h1>ABOUT ME</h1>
+      <p>I am a cybersecurity and networking student passionate about understanding how technology works and how digital systems 
+        can be protected. I am currently developing my skills in networking, Linux, cybersecurity, and web technologies. 
+        I enjoy learning through hands-on projects and continuously improving my technical knowledge.</p>
+        </div>
+    <img src="images/image.png" alt="logo" width="180" height="190">
+</div>
+      </section>
+      
+<br>
+    <section id="skills">
+
+  <div class="skills-heading">
+    <h2>My Skills</h2>
+  </div>
+
+  <div class="skills-container">
+
+    <article class="skill-item">
+      <h3>Networking</h3>
+      <p>Understanding how devices communicate, plus IP addressing and protocols.</p>
+    </article>
+
+    <article class="skill-item">
+      <h3>Linux</h3>
+      <p>Working in the terminal, managing users, permissions, and servers.</p>
+    </article>
+
+    <article class="skill-item">
+      <h3>Cybersecurity</h3>
+      <p>Learning how systems are attacked and how to protect them.</p>
+    </article>
+
+    <article class="skill-item">
+      <h3>Web Development</h3>
+      <p>Building websites with HTML, CSS, and JavaScript.</p>
+    </article>
+
+    <article class="skill-item">
+      <h3>Programming</h3>
+      <p>Writing code in Python and C++.</p>
+    </article>
+
+  </div>
+</section>
+<br>
+
+       
 
     <section id="projects">
-      <h1>My Projects</h1>
-      <ul>
-        <li><a href="#">Project 1: Network Security Simulation</a></li>
-        <li><a href="#">Project 2: Linux Server Configuration</a></li>
-        <li><a href="#">Project 3: Web Application Security Testing</a></li>
-      </ul>
-    </section>
+
+  <div class="project-heading">
+    <h2>My Projects</h2>
+  </div>
+
+  <div class="project-container">
+
+    <article class="project-item">
+      <h3>Network Security Simulation</h3>
+      <p>A simulated network where I tested firewall rules and detected attacks.</p>
+      <a href="https://github.com/your-username/project1" target="_blank" rel="noopener noreferrer">View project</a>
+    </article></div>
+
+<div class="project-container">
+    <article class="project-item">
+      <h3>Linux Server Configuration</h3>
+      <p>Set up and secured a Linux server with SSH, users, and permissions.</p>
+      <a href="https://github.com/your-username/project2" target="_blank" rel="noopener noreferrer">View project</a>
+    </article></div>
+
+<div class="project-container">
+    <article class="project-item">
+      <h3>Web Application Security Testing</h3>
+      <p>Tested a web app for common vulnerabilities like XSS and SQL injection.</p>
+      <a href="https://github.com/your-username/project3" target="_blank" rel="noopener noreferrer">View project</a>
+    </article></div>
+</section>
+ 
+
+<br>
 
 
+   <section id="education">
 
-    <section id="Education">
-      <h1>Education</h1>
-      <table>
-        <thead>
-          <tr>
-            <th>S.N</th>
-            <th>Level</th>
-            <th>Completion Date</th>
-            <th>School/College</th>
-            <th>G P A</th>
-            <th>Grade</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>1</td>
-            <td>School</td>
-            <td>2022</td>
-            <td>Priemer Secondary School</td>
-            <td>3.20</td>
-            <td>A</td>
-          </tr>
-          <tr>
-            <td>2</td>
-            <td>High school</td>
-            <td>2022-2024</td>
-            <td>Xavier International College</td>
-            <td>3.33</td>
-            <td>A</td>
-          </tr>
-          <tr>
-            <td>3</td>
-            <td>Bachelor</td>
-            <td>2025-2029</td>
-            <td>Model Institute Of Technology</td>
-            <td>On going</td>
-            <td>On going</td>
-          </tr>
-        </tbody>
-      </table>
-    </section>
+  <div class="education-container">
+    <h2>Education</h2>
+  </div>
 
+  <div class="education-list">
+
+    <article class="education-item">
+      <h3>Model Institute of Technology</h3>
+      <p>Bachelor's | Ongoing | GPA: Ongoing | Grade: Ongoing</p>
+    </article>
+
+    <article class="education-item">
+      <h3>Xavier International College</h3>
+      <p>High School | 2024 | GPA: 3.33 | Grade: A</p>
+    </article>
+
+    <article class="education-item">
+      <h3>Premier Secondary School</h3>
+      <p>School | 2022 | GPA: 3.20 | Grade: A</p>
+    </article>
+
+  </div>
+</section>
 
 
 
@@ -150,12 +195,16 @@
 
 
     <section id="socialmedia">
+      
+        
       <h1>Social Media</h1>
-      <a href="https://www.instagram.com"><img src="image/insta.png" alt="Instagram" width="30"></a>
-      <a href="https://www.facebook.com"><img src="image/facebook.png" alt="facebook" width="30"></a>
-      <a href="https://mail.google.com/mail/u/0/#inbox"><img src="image/mail.png" alt="Email" width="30"></a>
-      <a href="https://x.com"><img src="image/twit.png" alt="Twitter" width="30"></a>
+      <div class="social-links">
+     <h2> <a href="https://www.instagram.com"><img src="images/insta.png" alt="Instagram" width="30"></a>
+      <a href="https://www.facebook.com"><img src="images/facebook.png" alt="facebook" width="30"></a>
+      <a href="https://mail.google.com/mail/u/0/#inbox"><img src="images/mail.png" alt="Email" width="30"></a>
+      <a href="https://x.com"><img src="images/twit.png" alt="Twitter" width="30"></a>
       <br><br><br><br><br><br>
+     </div>
     </section>
 
   </main>
