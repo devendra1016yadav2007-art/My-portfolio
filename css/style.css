@@ -80,9 +80,9 @@ main{
 
 article a{
     color: rgb(174, 174, 214);
-    font_size: 1.2rem;  
+    font-size: 1.2rem;  
         font-weight: bold;
-        font-decoration: none;
+        text-decoration: none;
 }
 article a:hover{
     color: gold;
